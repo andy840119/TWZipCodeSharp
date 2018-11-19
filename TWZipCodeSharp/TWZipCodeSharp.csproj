@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFrameworks>net461;netstandard1.4;netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0.0</Version>
+    <Authors>andy840119</Authors>
+    <Description>Find Taiwan Zip Code written in C#</Description>
+    <Copyright>andy840119</Copyright>
+    <PackageLicenseUrl>https://github.com/andy840119/TWZipCodeSharp</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/andy840119/TWZipCodeSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/andy840119/TWZipCodeSharp</RepositoryUrl>
+    <PackageTags>Taiwan ZIPCode TWZipCode</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
